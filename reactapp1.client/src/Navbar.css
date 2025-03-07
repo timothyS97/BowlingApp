@@ -1,78 +1,9 @@
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navbarEdits {
     background-color: #89ab7e;
-    color: #fff;
-    padding: .5rem;
+    color: #ffff;
 }
 
-.navbar-left .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar-left .nav-links {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.navbar-left .nav-links li {
-    margin-right: 2rem;
-    font-weight: bold;
-}
-
-.navbar-left .nav-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar-center .nav-links {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-center .nav-links li {
-        margin-right: 2rem;
-        font-weight: bold;
-}
-
-.navbar-center .nav-links a {
-        color: #fff;
-        text-decoration: none;
-}
-
-.nav-links .contact-icon,
-.nav-links .about-icon,
-.nav-links .help-icon,
-.nav-links .house-icon{
-    margin-left: 5px; 
-    font-size: 1.2em;
-}
-
-.navbar-right {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-right .nav-links li {
-        margin-right: 1rem;
-}
-
-.navbar-right .nav-links a {
-        color: #fff;
-        text-decoration: none;
-}
-
-.navbar-right .user-icon {
-        color: #fff;
-        text-decoration: none;
-        margin-left: 1rem;
-        position: relative;
-}
+.navbarEdits .nav-link, .navbarEdits .navbar-brand {
+        color: white !important; /* Ensure links and brand are white */
+    }
