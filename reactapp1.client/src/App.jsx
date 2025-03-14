@@ -8,7 +8,9 @@ import Home from './pages/Home.jsx'
 import About from './pages/About';
 import Help from './pages/Help';
 import Contact from './pages/Contact';
-import 'bootstrap/dist/css/bootstrap.min.css'; /* For bootstrap */
+import BowlingScoreboard from './pages/BowlingScoreboard.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css'; /* For bootstrap-react */
+
 
 function App()
 {
@@ -21,6 +23,7 @@ function App()
                     <Route path="about" element={<About />} />
                     <Route path="help" element={<Help />} />
                     <Route path="contact" element={<Contact />} />
+                    <Route path="scoreboard" element={<BowlingScoreboard />} />
                 </Routes>
                 <Footer></Footer>
             
