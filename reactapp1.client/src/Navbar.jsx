@@ -30,6 +30,9 @@ function ApplicationNavbar()
                         <Nav.Link as={Link} to="/help">
                             <i className="fa-regular fa-question"></i> Help
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/scoreboard">
+                             Scoreboard
+                        </Nav.Link>
                     </Nav>
                     <Nav className="ms-auto">
                         <Nav.Link href="#">
