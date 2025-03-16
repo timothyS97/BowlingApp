@@ -9,6 +9,7 @@ import About from './pages/About';
 import Help from './pages/Help';
 import Contact from './pages/Contact';
 import BowlingScoreboard from './pages/BowlingScoreboard.jsx';
+import UserForm from './pages/UserForm.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css'; /* For bootstrap-react */
 
 
@@ -24,6 +25,7 @@ function App()
                     <Route path="help" element={<Help />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="scoreboard" element={<BowlingScoreboard />} />
+                    <Route path="userform" element={<UserForm />} />
                 </Routes>
                 <Footer></Footer>
             
