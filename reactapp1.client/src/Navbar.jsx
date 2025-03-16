@@ -33,6 +33,9 @@ function ApplicationNavbar()
                         <Nav.Link as={Link} to="/scoreboard">
                              Scoreboard
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/userform">
+                            User Form
+                        </Nav.Link>
                     </Nav>
                     <Nav className="ms-auto">
                         <Nav.Link href="#">
