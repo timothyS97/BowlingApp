@@ -10,7 +10,8 @@ import Help from './pages/Help';
 import Contact from './pages/Contact';
 import BowlingScoreboard from './pages/BowlingScoreboard.jsx';
 import UserForm from './pages/UserForm.jsx';
-import 'bootstrap/dist/css/bootstrap.min.css'; /* For bootstrap-react */
+import BowlingScoreForm from './pages/BowlingScoreForm.jsx';
+//import 'bootstrap/dist/css/bootstrap.min.css'; /* For bootstrap-react */
 
 
 function App()
@@ -26,6 +27,7 @@ function App()
                     <Route path="contact" element={<Contact />} />
                     <Route path="scoreboard" element={<BowlingScoreboard />} />
                     <Route path="userform" element={<UserForm />} />
+                    <Route path="bowlerform" element={<BowlingScoreForm />} />
                 </Routes>
                 <Footer></Footer>
             

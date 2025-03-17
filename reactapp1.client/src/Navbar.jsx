@@ -10,7 +10,7 @@ function ApplicationNavbar()
         <Navbar className="navbarEdits" expand="lg">
             <Container fluid> 
                 <Navbar.Brand as={Link} to="/">
-                    Bowling App
+                    My Alley
                 </Navbar.Brand>
 
                 <Navbar.Toggle aira-controls="basic-navbar-nav" /> 
@@ -35,6 +35,9 @@ function ApplicationNavbar()
                         </Nav.Link>
                         <Nav.Link as={Link} to="/userform">
                             User Form
+                        </Nav.Link>
+                        <Nav.Link as={Link} to="/bowlerform">
+                            Stats Form
                         </Nav.Link>
                     </Nav>
                     <Nav className="ms-auto">

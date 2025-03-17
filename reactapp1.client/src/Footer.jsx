@@ -10,7 +10,7 @@ function Footer()
             <Container>
                 <Row className="justify-content-center">
                     <Col xs={12} md={6} className="text-center">
-                        <p> Bowling App 2025.</p>
+                        <p> My Alley 2025.</p>
                     </Col>
                 </Row>
             </Container>
